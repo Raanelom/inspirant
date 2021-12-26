@@ -1,0 +1,144 @@
+.sidebar {
+    position:fixed;
+    top:0;
+    bottom:0;
+    left:0;
+    z-index:1000;
+    padding-right:20px;
+    padding-left:20px;
+    overflow-x:hidden;
+    overflow-y:auto;
+    padding-left:0;
+    padding-right:0
+   }
+
+a,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+ font-family:poppins,sans-serif
+}
+p {
+ line-height:1.6
+}
+.text-highlight {
+ border:1px solid #eee;
+ border-top-color: #eee !important;
+ border-right-color: #eee !important;
+ border-bottom-color: #eee !important;
+ background-color:#fff;
+ border-left-style:solid;
+ border-left-width:5px;
+ padding-top:1rem
+}
+.border-primary {
+    border-left-color:#0275d8
+}
+.border-primary.active {
+ border-left-style:solid;
+ border-left-width:5px
+}
+.border-success {
+ border-left-color:#5cb85c
+}
+.border-success.active {
+ border-left-style:solid;
+ border-left-width:5px
+}
+.border-info {
+ border-left-color:#5bc0de
+}
+.border-info.active {
+ border-left-style:solid;
+ border-left-width:5px
+}
+.border-warning {
+ border-left-color:#f0ad4e
+}
+.border-warning.active {
+ border-left-style:solid;
+ border-left-width:5px
+}
+.border-danger {
+ border-left-color:#d9534f
+}
+.border-danger.active {
+ border-left-style:solid;
+ border-left-width:5px
+}
+.border-inverse {
+ border-left-color:#292b2c
+}
+.border-inverse.active {
+ border-left-style:solid;
+ border-left-width:5px
+}
+h1 {
+ font-size:2rem
+}
+.upper-right-icon {
+ display:none
+}
+.parallelogram {
+ width:32rem;
+ height:6rem;
+ transform:skew(40deg);
+ z-index:0;
+ position:absolute;
+ left:-3rem
+}
+.title {
+ height:7rem;
+ position:relative;
+ padding-left:1rem;
+ color:#fff;
+ float:left;
+ padding-top:1.75rem
+}
+.nav-item,
+.nav-pills   .nav-link {
+ border-radius:0
+}
+#map {
+ width:100%;
+ background-color:#d3d3d3;
+ height:25rem
+}
+.redenen-carousel,
+.redenen-carousel   blockquote {
+ min-height:6rem
+}
+.redenen-carousel   .fa {
+ color:#000
+}
+@media (max-width:768px) {
+ .redenen-carousel {
+  min-height:12rem
+ }
+}
+@media (max-width:767px) {
+ .parallelogram {
+  width:100%
+ }
+ main {
+  padding-top:50px
+ }
+}
+@media (min-width:767px) {
+ .upper-right-icon {
+  display:block;
+  margin-top:1.5rem;
+  margin-right:1.5rem
+ }
+}
+
+
+a.nav-link {
+    color:#ccc!important
+   }
+   a.nav-link.active {
+    background-color:#222
+   }
