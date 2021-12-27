@@ -4,7 +4,6 @@ var map = L.mapbox.map('map')
     .addLayer(L.mapbox.styleLayer('mapbox://styles/mapbox/streets-v11'));
 var marker = L.marker([51.94396451510416, 4.470387454615871], {
     icon: L.mapbox.marker.icon({
-        'marker-color': '#f86767'
-    }),
-    draggable: true
+        'marker-color': '#007bff'
+    })
 }).addTo(map);
