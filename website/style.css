@@ -18,7 +18,8 @@ h3,
 h4,
 h5,
 h6,
-p {
+p,
+.card li {
  font-family:poppins,sans-serif
 }
 p {
@@ -37,44 +38,38 @@ p {
 .border-primary {
     border-left-color:#0275d8
 }
-.border-primary.active {
- border-left-style:solid;
- border-left-width:5px
+.border-indigo {
+    border-left-color: #6610f2 !important;
 }
-.border-success {
- border-left-color:#5cb85c
+.border-left-primary {
+    border-left-color: #007bff;
 }
-.border-success.active {
- border-left-style:solid;
- border-left-width:5px
+.border-left-success {
+    border-left-color: #28a745;
+}
+.border-left-dark {
+    border-left-color: #6c757d;
+}
+.border-indigo.active, .card.border-left-primary, .border-left-success, .border-left-dark,
+.border-info.active, .border-warning.active, .border-danger.active, .border-inverse.active,
+.border-primary.active, .border-success.active {
+    border-left-style:solid;
+    border-left-width:5px
+}
+.border-indigo hr {
+    border-color: #6610f2;
 }
 .border-info {
  border-left-color:#5bc0de
 }
-.border-info.active {
- border-left-style:solid;
- border-left-width:5px
-}
 .border-warning {
  border-left-color:#f0ad4e
-}
-.border-warning.active {
- border-left-style:solid;
- border-left-width:5px
 }
 .border-danger {
  border-left-color:#d9534f
 }
-.border-danger.active {
- border-left-style:solid;
- border-left-width:5px
-}
 .border-inverse {
  border-left-color:#292b2c
-}
-.border-inverse.active {
- border-left-style:solid;
- border-left-width:5px
 }
 h1 {
  font-size:2rem
@@ -99,7 +94,7 @@ h1 {
  padding-top:1.75rem
 }
 .nav-item,
-.nav-pills   .nav-link {
+.nav-pills .nav-link {
  border-radius:0
 }
 #map {
